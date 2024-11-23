@@ -9,4 +9,9 @@ extension String {
         }
         return String(self.prefix(1))
     }
+    
+    
+    public var totalCharLength: Int {
+        return self.count
+    }
 }
