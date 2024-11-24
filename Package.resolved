@@ -1,0 +1,24 @@
+{
+  "originHash" : "d6bf59d1881cdbe9bee8d79aeafc0d64e52f15b8174d09948d70d82035e95239",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "e16d3481f5ed35f0472cb93350085853d754913f",
+        "version" : "5.10.1"
+      }
+    },
+    {
+      "identity" : "intutility",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hakanmiras/IntUtility",
+      "state" : {
+        "revision" : "e5ce31c35568b975abe7e4d821359c322f2d5d5b",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}

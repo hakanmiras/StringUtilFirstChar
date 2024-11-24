@@ -8,7 +8,11 @@
 import UIKit
 
 class CalculateSum: UIViewController {
-
+    @IBOutlet weak var textFieldOne: UITextField!
+    @IBOutlet weak var textFieldSecond: UITextField!
+    @IBOutlet weak var lbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +20,17 @@ class CalculateSum: UIViewController {
     }
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func click(_ sender: Any) {
+        let num1: Int = Int(textFieldOne.text ?? "")!
+        let num2: Int = Int(textFieldSecond.text ?? "")!
+        
+        let sum = num1 + num2
+        
+        lbl.text = "\(sum)"
+        
+        lbl.textColor = UIColor(named: "CustomPink")
+        
+        
     }
-    */
 
 }

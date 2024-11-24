@@ -12,13 +12,14 @@ let package = Package(
             name: "StringUtilFirstChar",
             targets: ["StringUtilFirstChar"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.10.0")),
+        .package(url: "https://github.com/hakanmiras/IntUtility", .upToNextMajor(from: "1.0.0")),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "StringUtilFirstChar"),
-        .testTarget(
-            name: "StringUtilFirstCharTests",
-            dependencies: ["StringUtilFirstChar"]),
+            name: "StringUtilFirstChar",
+            resources: [.process("Color.xcassets")]
+        ),
     ]
 )

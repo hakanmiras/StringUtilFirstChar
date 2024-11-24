@@ -15,3 +15,9 @@ extension String {
         return self.count
     }
 }
+
+//import Alamofire
+//
+//class Utility {
+//    AF.request()
+//}
