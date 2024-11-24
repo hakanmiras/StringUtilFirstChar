@@ -68,16 +68,31 @@
                         <action selector="closeClick:" destination="-1" eventType="touchUpInside" id="zMY-XR-yKd"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAf-RF-ikY">
+                    <rect key="frame" x="159" y="340" width="75" height="34.333333333333314"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="KRC-Sa-HPM"/>
+                        <constraint firstAttribute="width" constant="75" id="Tu6-Kg-cDR"/>
+                        <constraint firstAttribute="height" constant="34.329999999999998" id="bBk-Qh-3iS"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="İleri"/>
+                    <connections>
+                        <action selector="ileriClick:" destination="-1" eventType="touchUpInside" id="iLV-Q7-fdI"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="xP9-fC-OEN" firstAttribute="top" secondItem="QgN-45-8R2" secondAttribute="bottom" constant="45" id="3Fi-dl-FqL"/>
+                <constraint firstItem="FAf-RF-ikY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7e8-sg-YdQ"/>
                 <constraint firstItem="QgN-45-8R2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="95" id="Arw-cp-ouj"/>
                 <constraint firstItem="Rtc-oS-FgL" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Ipw-vp-Nwl"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ihM-fu-jwv" secondAttribute="trailing" constant="16" id="Mbn-ve-b04"/>
                 <constraint firstItem="xP9-fC-OEN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Zk4-el-cpe"/>
                 <constraint firstItem="Rtc-oS-FgL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fps-oc-O0T"/>
+                <constraint firstItem="FAf-RF-ikY" firstAttribute="top" secondItem="xP9-fC-OEN" secondAttribute="bottom" constant="14.67" id="ga9-l2-jfq"/>
                 <constraint firstItem="ihM-fu-jwv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="25" id="mPn-OM-Eh5"/>
                 <constraint firstItem="QgN-45-8R2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pgf-bB-U1h"/>
             </constraints>

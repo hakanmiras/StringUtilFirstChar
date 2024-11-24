@@ -37,5 +37,10 @@ public class CalculateSum: UIViewController {
         self.dismiss(animated: false)
     }
     
+    @IBAction func ileriClick(_ sender: Any) {
+        let nextVC = NextViewController(nibName: "NextViewController", bundle: nil)
+        self.present(nextVC, animated: false)
+    }
+    
 
 }
