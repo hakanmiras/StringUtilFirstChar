@@ -8,6 +8,14 @@
 import UIKit
 
 public class CalculateSum: UIViewController {
+    public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: "CalculateSum", bundle: Bundle.module)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     @IBOutlet weak var textFieldOne: UITextField!
     @IBOutlet weak var textFieldSecond: UITextField!
     @IBOutlet weak var lbl: UILabel!
