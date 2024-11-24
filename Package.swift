@@ -20,7 +20,8 @@ let package = Package(
         .target(
             name: "StringUtilFirstChar",
             resources: [.process("Resources/Color.xcassets"),
-                        .process("Resources/CalculateSum.xib")
+                        .process("Resources/CalculateSum.xib"),
+                        .process("Resources/CalculateSum.swift")
             ]
         )
     ]
