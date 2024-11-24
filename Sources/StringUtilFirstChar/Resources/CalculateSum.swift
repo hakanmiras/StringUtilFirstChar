@@ -20,7 +20,7 @@ public class CalculateSum: UIViewController {
         
         lbl.text = "\(sum)"
         
-        lbl.textColor = UIColor(named: "CustomPink")
+        lbl.textColor = UIColor(named: "CustomPink", in: Bundle.module, compatibleWith: nil)
         
         
     }
