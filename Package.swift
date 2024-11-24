@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .target(
             name: "StringUtilFirstChar",
-            resources: [.copy("Resources/Color.xcassets"),
-                        .copy("Resources/CalculateSum.xib")
+            dependencies: ["Alamofire", "IntUtility"],
+            resources: [.copy("Resources/Color.xcassets")
             ]
         )
     ]

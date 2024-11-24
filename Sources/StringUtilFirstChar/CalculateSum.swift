@@ -39,6 +39,7 @@ public class CalculateSum: UIViewController {
     
     @IBAction func ileriClick(_ sender: Any) {
         let nextVC = NextViewController(nibName: "NextViewController", bundle: nil)
+        nextVC.modalPresentationStyle = .fullScreen
         self.present(nextVC, animated: false)
     }
     
