@@ -32,5 +32,10 @@ public class CalculateSum: UIViewController {
         
         
     }
+    
+    @IBAction func closeClick(_ sender: Any) {
+        self.dismiss(animated: false)
+    }
+    
 
 }
