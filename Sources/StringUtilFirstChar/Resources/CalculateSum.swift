@@ -7,19 +7,11 @@
 
 import UIKit
 
-class CalculateSum: UIViewController {
+public class CalculateSum: UIViewController {
     @IBOutlet weak var textFieldOne: UITextField!
     @IBOutlet weak var textFieldSecond: UITextField!
     @IBOutlet weak var lbl: UILabel!
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-
     @IBAction func click(_ sender: Any) {
         let num1: Int = Int(textFieldOne.text ?? "")!
         let num2: Int = Int(textFieldSecond.text ?? "")!
