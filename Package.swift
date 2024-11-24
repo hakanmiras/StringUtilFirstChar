@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "StringUtilFirstChar",
             dependencies: ["Alamofire", "IntUtility"],
-            resources: [.copy("Resources/Color.xcassets")
+            resources: [.process("Resources/Color.xcassets")
             ]
         )
     ]
