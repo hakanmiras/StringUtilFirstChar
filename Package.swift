@@ -19,9 +19,8 @@ let package = Package(
     targets: [
         .target(
             name: "StringUtilFirstChar",
-            resources: [.process("Resources/Color.xcassets"),
-                        .process("Resources/CalculateSum.xib"),
-                        .process("Resources/CalculateSum.swift")
+            resources: [.copy("Resources/Color.xcassets"),
+                        .copy("Resources/CalculateSum.xib")
             ]
         )
     ]
